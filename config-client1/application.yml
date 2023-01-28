@@ -1,2 +1,13 @@
 custom:
   message: hiParth
+spring:
+ application:
+    name: eureka-registry
+ datasource:
+    password:
+    url: jdbc:h2:file:C:/h2data/sample
+    username: sa
+ jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
